@@ -12,7 +12,7 @@ from rich.logging import RichHandler
 S3_SAMPLE_BUCKET = "sample-bucket"
 
 # Sample prefix
-S3_SAMPLE_PREFIXATH = "folder1/"
+S3_SAMPLE_PREFIX = "folder1/"
 
 # Directories
 BASE_DIR = Path(__file__).parent.parent.absolute()
