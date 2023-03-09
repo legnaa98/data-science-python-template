@@ -6,7 +6,6 @@ from pathlib import Path
 
 from rich.logging import RichHandler
 
-
 # S3 Buckets
 
 # Sample bucket
