@@ -1,0 +1,8 @@
+{
+    "directory_name": "project",
+    "author": "author",
+    "email": "email@email.com",
+    "project_description": "",
+    "project_slug": "{{cookiecutter.directory_name.lower().replace(' ', '_')}}",
+    "python_version": "3.8.16"
+}

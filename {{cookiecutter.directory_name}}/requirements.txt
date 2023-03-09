@@ -1,0 +1,5 @@
+# Base
+pandas
+matplotlib
+boto3
+# Add your project specific packages

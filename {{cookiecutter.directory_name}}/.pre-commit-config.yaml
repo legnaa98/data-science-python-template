@@ -1,0 +1,35 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: trailing-whitespace
+        exclude: requirements.txt
+    -   id: check-added-large-files
+-   repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+    -   id: black
+        args: []
+        files: .
+-   repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+    -   id: black-jupyter
+        args: []
+        files: .
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+    -   id: isort
+        args: []
+        files: .
+-   repo: local
+    hooks:
+    -   id: clean
+        name: clean
+        entry: make
+        args: ["clean"]
+        language: system
+        pass_filenames: false
