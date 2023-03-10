@@ -3,6 +3,7 @@
 style:
 	black .
 	python3 -m isort .
+	interrogate .
 
 # Cleaning
 .PHONY: clean
