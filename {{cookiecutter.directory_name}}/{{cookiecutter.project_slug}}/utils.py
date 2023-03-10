@@ -253,7 +253,7 @@ def save_png_s3(bucket_name: str, bucket_path: str):
     plt.savefig(img_data, format="png")
     img_data.seek(0)
 
-    # Connect to sS
+    # Connect to S3
     s3 = boto3.resource("s3")
     bucket = s3.Bucket(bucket_name)
 
