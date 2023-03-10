@@ -141,4 +141,3 @@ cython_debug/
 data
 models
 logs
-notebooks
