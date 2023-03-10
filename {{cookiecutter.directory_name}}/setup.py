@@ -7,7 +7,10 @@ BASE_DIR = Path(__file__).parent
 with open(Path(BASE_DIR, "requirements.txt"), "r") as file:
     required_packages = [ln.strip() for ln in file.readlines()]
 
-style_packages = ["black", "flake8", "isort", "pylint", "jupyter-black"]
+style_packages = [
+    "black", "flake8", "isort",
+    "pylint", "jupyter-black", "interrogate"
+]
 
 # Define package
 setup(
