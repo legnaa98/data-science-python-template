@@ -1,3 +1,4 @@
+"""Module with general purpose functionalities."""
 import io
 import json
 import pickle
@@ -265,6 +266,7 @@ class NumpyEncoder(json.JSONEncoder):
     """Encoder to save numpy floats in args json files."""
 
     def default(self, obj):
+        """Encode object based on its numeric data type."""
         if isinstance(obj, np.integer):
             return int(obj)
         if isinstance(obj, np.floating):
