@@ -1,5 +1,6 @@
 {
-    "directory_name": "project",
+    "project": "project",
+    "directory_name": "{{cookiecutter.project.lower().replace(' ', '-')}}",
     "author": "author",
     "email": "email@email.com",
     "project_description": "",
