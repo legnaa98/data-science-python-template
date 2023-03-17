@@ -1,5 +1,5 @@
 # data-science-python-template
-A simple Data Science cookiecutter project template, with commonly used functions within the `utils.py` module for tasks such:
+A simple Data Science cookiecutter project template, with commonly used functions within the `utils.py` module for tasks such as:
 * Read/write operations on various data formats from local directories or S3 buckets
 * List all URIs within an S3 bucket
 * And, saving pandas dataframes in S3 as parquet or csv
